@@ -71,9 +71,11 @@ const Component = (props) => {
       flipped={data.flipped}
       matched={data.matched}
     >
-      <Content>
-        <img src={data.image} alt="card back" />
-      </Content>
+      {data.flipped && (
+        <Content>
+          <img src={data.image} alt="card back" />
+        </Content>
+      )}
     </Wrapper>
   );
 };
