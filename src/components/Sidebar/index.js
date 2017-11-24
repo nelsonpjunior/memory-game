@@ -64,7 +64,7 @@ const Component = (props) => (
         info={player}
       />
     ))}
-    {props.players.length < 4 && <PlayerForm addPlayer={props.addPlayer} />}
+    {(props.players.length < 4 && !props.started) && <PlayerForm addPlayer={props.addPlayer} />}
     {(props.players.length >= 2 && !props.started) && <Button onClick={props.startGame}>NEW GAME</Button>}
   </Wrapper>
 );
