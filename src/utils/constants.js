@@ -1,0 +1,12 @@
+export const addPlayer = 'ADD_PLAYER';
+export const nextPlayer = 'NEXT_PLAYER';
+export const playerScore = 'PLAYER_SCORE';
+export const startGame = 'START_GAME';
+export const resetPlayers = 'RESET_PLAYERS';
+export const endGame = 'END_GAME';
+export const flipCard = 'FLIP_CARD';
+export const match = 'MATCH';
+export const matchCount = 'MATCH_COUNT';
+export const fetchImages = 'FECH_IMAGES';
+export const fetchImagesRejected = 'FETCH_IMAGES_REJECTED';
+export const totalCards = 12;

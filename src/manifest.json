@@ -1,0 +1,9 @@
+{
+  "name": "Memory game",
+  "short_name": "memory",
+  "start_url": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#fcfbfa",
+  "theme_color": "#eb4a42"
+}
